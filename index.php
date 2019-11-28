@@ -174,9 +174,6 @@
 		</style>
 	</head>
 	<body>
-		<div id="footer"><!-- to nie pomyłka -->
-			<a href="source.txt">Kod źródłowy</a>
-		</div>
 		<div class="center"><!-- header -->
 			<h1>Obliczanie dźwięków</h1>
 		</div>
@@ -269,7 +266,7 @@
 		</div>
 		<?php
 			// Benchmark === END ===
-			//$benchmark_end = getmicrotime(); // Unikaj niepotrzebnych zmiennych!
+			//$benchmark_end = getmicrotime();
 			echo '<!-- Czas wykonywania: ' . ($benchmark_start - getmicrotime()) . ' -->' . "\n";
 			echo '<!-- Copyleft, MissKittin@GitHub 17.02.2016 -->' . "\n";
 		?>
